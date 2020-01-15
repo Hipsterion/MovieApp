@@ -1,0 +1,8 @@
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\bin\Debug\netcoreapp3.0\MoviesApp.Domain.deps.json
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\bin\Debug\netcoreapp3.0\MoviesApp.Domain.dll
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\bin\Debug\netcoreapp3.0\MoviesApp.Domain.pdb
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\obj\Debug\netcoreapp3.0\MoviesApp.Domain.csprojAssemblyReference.cache
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\obj\Debug\netcoreapp3.0\MoviesApp.Domain.AssemblyInfoInputs.cache
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\obj\Debug\netcoreapp3.0\MoviesApp.Domain.AssemblyInfo.cs
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\obj\Debug\netcoreapp3.0\MoviesApp.Domain.dll
+C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.Domain\obj\Debug\netcoreapp3.0\MoviesApp.Domain.pdb
