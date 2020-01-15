@@ -11,3 +11,16 @@ C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.B
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.csproj.CopyComplete
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.dll
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.BLL.deps.json
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.BLL.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.BLL.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.DAL.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.Domain.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.DAL.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\bin\Debug\netcoreapp3.0\MoviesApp.Domain.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.csprojAssemblyReference.cache
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.AssemblyInfoInputs.cache
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.AssemblyInfo.cs
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.csproj.CopyComplete
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.BLL\obj\Debug\netcoreapp3.0\MoviesApp.BLL.pdb

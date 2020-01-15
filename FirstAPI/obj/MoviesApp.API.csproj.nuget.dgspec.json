@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\FirstAPI\\MoviesApp.API.csproj": {}
+    "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\FirstAPI\\MoviesApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\FirstAPI\\MoviesApp.API.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\FirstAPI\\MoviesApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\FirstAPI\\MoviesApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\FirstAPI\\MoviesApp.API.csproj",
         "projectName": "MoviesApp.API",
-        "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\FirstAPI\\MoviesApp.API.csproj",
-        "packagesPath": "C:\\Users\\BogdanDascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\FirstAPI\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\FirstAPI\\MoviesApp.API.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\FirstAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BogdanDascal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\MoviesApp.BLL.csproj": {
-                "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\MoviesApp.BLL.csproj"
+              "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\MoviesApp.BLL.csproj": {
+                "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\MoviesApp.BLL.csproj"
               },
-              "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
+              "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
               }
             }
           }
@@ -68,6 +71,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.2, 3.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,21 +97,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\MoviesApp.BLL.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\MoviesApp.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\MoviesApp.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\MoviesApp.BLL.csproj",
         "projectName": "MoviesApp.BLL",
-        "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\MoviesApp.BLL.csproj",
-        "packagesPath": "C:\\Users\\BogdanDascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.BLL\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\MoviesApp.BLL.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BogdanDascal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,11 +127,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
-                "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\MoviesApp.DAL.csproj"
+              "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
+                "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj"
               },
-              "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
+              "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
               }
             }
           }
@@ -140,26 +164,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
         "projectName": "MoviesApp.DAL",
-        "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\BogdanDascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.DAL\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BogdanDascal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +213,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
+              "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj"
               }
             }
           }
@@ -194,6 +235,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             }
           },
           "imports": [
@@ -206,26 +251,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
+    "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj",
         "projectName": "MoviesApp.Domain",
-        "projectPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\MoviesApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\BogdanDascal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BogdanDascal\\Documents\\Visual Studio 2019\\Projects\\FirstAPI\\MoviesApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\MoviesApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\bogda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogda\\OneDrive\\Documents\\Visual Studio 2019\\Projects\\MovieApp\\MoviesApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BogdanDascal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,12 +320,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

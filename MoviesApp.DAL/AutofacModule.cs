@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using MoviesApp.Domain;
 
 namespace MoviesApp.DAL
 {
@@ -6,7 +7,7 @@ namespace MoviesApp.DAL
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.Register();
+            builder.RegisterType<SqlRepository>().As<ICrudRepository<Movie, int>>().SingleInstance();
         }
     }
 }

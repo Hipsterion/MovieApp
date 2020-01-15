@@ -30,6 +30,20 @@ namespace MoviesApp.API.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
+        public Movie GetMovie(int id)
+        {
+            return _service.GetMovie(id);
+        }
+
+        [HttpPost]
+        public ActionResult PostMovie(Movie movie)
+        {
+            _service.AddMovie(movie);
+            return Ok();
+        }
+
+        /*[HttpGet]
         [Route("popular/{number}")]
 
         public IEnumerable<Movie> GetPopularMovies(int number)
@@ -37,13 +51,7 @@ namespace MoviesApp.API.Controllers
             return _service.GetPopularMovies(number);
         }
 
-        [HttpPost]
-        public ActionResult PostMovie(Movie movie)
-        {
-            _service.Add(movie);
-
-            return Ok();
-        }
+      
 
         [HttpDelete]
         [Route("{id}")]
@@ -58,6 +66,6 @@ namespace MoviesApp.API.Controllers
         {
             _service.Update(movie);
             return Ok();
-        }
+        }*/
     }
 }

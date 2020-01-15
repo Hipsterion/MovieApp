@@ -5,38 +5,41 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MoviesApp.Domain;
-
+using MoviesApp.DAL;
 namespace MoviesApp.BLL
 {
     public class MovieService
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+        private ICrudRepository<Movie, int> _repository;
         public AppConfigData ConfigData { get; }
 
-        private List<Movie> _movieList;
-
-        public MovieService(IOptions<AppConfigData> configData)
+        public MovieService(IOptions<AppConfigData> configData, ICrudRepository<Movie, int> repository)
         {
             ConfigData = configData.Value;
-            _movieList = GetRandomMovies();
+            _repository = repository;
         }
 
-
-        public List<Movie> GetMovies()
+        public IEnumerable<Movie> GetMovies()
         {
-            return _movieList;
+            return _repository.GetAll();
         }
 
-        public List<Movie> GetPopularMovies(int number)
+        public Movie GetMovie(int id)
+        {
+            return _repository.GetById(id);
+        }
+
+        public Movie AddMovie(Movie movie)
+        {
+            return _repository.Insert(movie);
+        }
+
+        /*public List<Movie> GetPopularMovies(int number)
         {
             return _movieList.OrderByDescending(m => m.Popularity).Take(number).ToList();
-        }
+        }*/
 
-        public List<Movie> GetRandomMovies()
+        /*public List<Movie> GetRandomMovies()
         {
             var rng = new Random();
             return Enumerable.Range(1, 10).Select(index => new Movie
@@ -47,9 +50,9 @@ namespace MoviesApp.BLL
                 Popularity = 1000 + index
             })
             .ToList();
-        }
+        }*/
 
-        public void Add(Movie movie)
+     /*   public void Add(Movie movie)
         {
             _movieList.Add(movie);
         }
@@ -66,6 +69,6 @@ namespace MoviesApp.BLL
             oldMovie.ReleaseDate = movie.ReleaseDate;
             oldMovie.Title = movie.Title;
             oldMovie.VoteCount = movie.VoteCount;
-        }
+        }*/
     }
 }

@@ -9,3 +9,14 @@ C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.D
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.csproj.CopyComplete
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.dll
 C:\Users\BogdanDascal\Documents\Visual Studio 2019\Projects\FirstAPI\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\bin\Debug\netcoreapp3.0\MoviesApp.DAL.deps.json
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\bin\Debug\netcoreapp3.0\MoviesApp.DAL.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\bin\Debug\netcoreapp3.0\MoviesApp.DAL.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\bin\Debug\netcoreapp3.0\MoviesApp.Domain.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\bin\Debug\netcoreapp3.0\MoviesApp.Domain.pdb
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.csprojAssemblyReference.cache
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.AssemblyInfoInputs.cache
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.AssemblyInfo.cs
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.csproj.CopyComplete
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.dll
+C:\Users\bogda\OneDrive\Documents\Visual Studio 2019\Projects\MovieApp\MoviesApp.DAL\obj\Debug\netcoreapp3.0\MoviesApp.DAL.pdb
