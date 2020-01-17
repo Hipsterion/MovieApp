@@ -43,29 +43,28 @@ namespace MoviesApp.API.Controllers
             return Ok();
         }
 
-        /*[HttpGet]
-        [Route("popular/{number}")]
-
-        public IEnumerable<Movie> GetPopularMovies(int number)
-        {
-            return _service.GetPopularMovies(number);
-        }
-
-      
-
         [HttpDelete]
         [Route("{id}")]
         public ActionResult DeleteMovie(int id)
         {
-            _service.Delete(id);
+            _service.DeleteMovie(id);
             return Ok();
         }
 
         [HttpPut]
         public ActionResult UpdateMovie(Movie movie)
         {
-            _service.Update(movie);
+            _service.UpdateMovie(movie);
             return Ok();
+        }
+
+        /*[HttpGet]
+        [Route("popular/{number}")]
+
+        public IEnumerable<Movie> GetPopularMovies(int number)
+        {
+            return _service.GetPopularMovies(number);
         }*/
+
     }
 }
