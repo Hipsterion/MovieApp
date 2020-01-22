@@ -10,10 +10,10 @@ namespace MoviesApp.BLL
 {
     public class MovieService
     {
-        private ICrudRepository<Movie, int> _repository;
+        private IMovieRepository _repository;
         public AppConfigData ConfigData { get; }
 
-        public MovieService(IOptions<AppConfigData> configData, ICrudRepository<Movie, int> repository)
+        public MovieService(IOptions<AppConfigData> configData, IMovieRepository repository)
         {
             ConfigData = configData.Value;
             _repository = repository;
@@ -44,9 +44,21 @@ namespace MoviesApp.BLL
             _repository.Delete(id);
         }
 
-       /* public List<Movie> GetPopularMovies(int number)
+        public int GetMovieVotesCount(int id)
         {
-            return _repository.GetAll().OrderByDescending(m => m.Popularity).Take(number).ToList();
-        }*/
+            return _repository.GetMovieVotesCount(id);
+        }
+
+        public double GetMovieRating(int id)
+        {
+            return _repository.GetMovieRating(id);
+        }
+
+        public IEnumerable<Vote> GetMovieVotes(int id)
+        {
+            return _repository.GetMovieVotes(id);
+        }
+
+
     }
 }

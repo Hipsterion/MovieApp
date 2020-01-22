@@ -11,6 +11,9 @@ namespace MoviesApp.Domain
         [Range(1,10)]
         public int Score { get; set; }
 
+        public int MemberId { get { return Id.MemberId; } set { Id = (value, Id.MovieId); } }
+        public int MovieId { get { return Id.MovieId; } set { Id = (Id.MemberId, value); } }
+
         public VoteDTO ToVoteDTO()
         {
             return new VoteDTO()

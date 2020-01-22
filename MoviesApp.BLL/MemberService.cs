@@ -8,10 +8,10 @@ namespace MoviesApp.BLL
 {
     public class MemberService
     {
-        private ICrudRepository<Member, int> _repository;
+        private IMemberRepository _repository;
         public AppConfigData ConfigData { get; }
 
-        public MemberService(IOptions<AppConfigData> configData, ICrudRepository<Member, int> repository)
+        public MemberService(IOptions<AppConfigData> configData, IMemberRepository repository)
         {
             ConfigData = configData.Value;
             _repository = repository;

@@ -26,7 +26,5 @@ namespace MoviesApp.API.Controllers
         {
             return _service.GetMoviesRatings();
         }
-
-       
     }
 }

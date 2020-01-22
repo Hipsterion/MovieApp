@@ -8,10 +8,10 @@ namespace MoviesApp.BLL
 {
     public class VoteService
     {
-        private ICrudRepository<Vote, (int, int)> _repository;
+        private IVoteRepository _repository;
         public AppConfigData ConfigData { get; }
 
-        public VoteService(IOptions<AppConfigData> configData, ICrudRepository<Vote, (int, int)> repository)
+        public VoteService(IOptions<AppConfigData> configData, IVoteRepository repository)
         {
             ConfigData = configData.Value;
             _repository = repository;

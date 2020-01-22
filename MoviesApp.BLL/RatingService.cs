@@ -20,40 +20,24 @@ namespace MoviesApp.BLL
             _voteService = voteService;
         }
 
-        public int GetMovieVoteCount(Movie movie)
-        {
-            return _voteService.GetVotes()
-                .Where(v => v.Id.MovieId == movie.Id)
-                .Count();
-        }
-
-        public int GetMovieRank(Movie movie)
-        {
-            return _movieService.GetMovies()
-                        .OrderByDescending(m => GetMovieRating(m))
-                        .Select((m, i) => new { Movie = m, Index = i })
-                        .Where(x => x.Movie.Id == movie.Id)
-                        .Select(x => x.Index)
-                        .First() + 1;
-        }
-
-        public double GetMovieRating(Movie movie)
-        {
-            return GetMovieVoteCount(movie) > 0 ? _voteService.GetVotes()
-                                                    .Where(v => v.Id.MovieId == movie.Id)
-                                                    .Average(m => m.Score) : 0;
-        }
-
         public IEnumerable<MovieRatingDTO> GetMoviesRatings()
         {
             return _movieService.GetMovies()
-                        .Select(m => new MovieRatingDTO()
+                        .Select(m => new
                         {
-                            Id = m.Id,
+                            MovieId = m.Id,
+                            m.Title,
+                            VoteCount = _movieService.GetMovieVotesCount(m.Id),
+                            Rating = _movieService.GetMovieRating(m.Id)
+                        })
+                        .OrderByDescending(m => m.Rating)
+                        .Select((m,i) => new MovieRatingDTO
+                        {
+                            MovieId = m.MovieId,
                             Title = m.Title,
-                            Rank = GetMovieRank(m),
-                            VoteCount = GetMovieVoteCount(m),
-                            Rating = GetMovieRating(m)
+                            VoteCount = m.VoteCount,
+                            Rating = m.Rating,
+                            Rank = i
                         })
                         .ToList();
         }

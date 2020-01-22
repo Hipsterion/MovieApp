@@ -101,7 +101,8 @@ namespace MoviesApp.DAL
         public void Delete(int id)
         {
             using SqlConnection con = new SqlConnection(_connectionString);
-            string query = "DELETE FROM Members WHERE Id = @Id";
+            string query = "DELETE FROM Votes WHERE MemberId = @Id;" +
+                           "DELETE FROM Members WHERE Id = @Id";
             using SqlCommand cmd = new SqlCommand(query, con);
             cmd.Parameters.Add("@Id", SqlDbType.Int).Value = id;
             cmd.CommandType = CommandType.Text;
